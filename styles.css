@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h2 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.sidebar ul li.active {
+    background: #444;
+}
+
+.sidebar-footer {
+    padding: 20px;
+}
+
+.sidebar-footer button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input {
+    padding: 10px;
+    width: 200px;
+}
+
+.calendar {
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.day {
+    background: #ddd;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.date {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.event {
+    background: #ab6ded;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.php {
+    background: #fa91e3;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.grey {
+    background: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.white {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.black {
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.get-help {}
